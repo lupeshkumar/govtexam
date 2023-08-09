@@ -1,0 +1,242 @@
+body{
+    background: linear-gradient( to left, rgb(235 109 109), rgb(153 94 215), rgb(207 183 201) );
+}
+
+@media  screen and(max-width:300px) {
+
+   .navbar {
+    color: red;
+    background-color: blue;
+
+   }
+
+   
+    .marquee{
+        text-align: center;
+    }
+}
+header {
+    background-color: rgb(181, 33, 33);
+    color: white;
+    text-align: center;
+    justify-content: center;
+   
+   
+   
+  
+ 
+  }
+  
+  header h1{
+   padding: 10px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+ }
+
+.mar{
+margin-bottom: 10px;
+}
+
+.mar a{
+color: rgb(255, 255, 255);
+
+font-size: 20px;
+
+
+}
+html,body{
+    height: 100%;
+}
+
+.box{
+
+
+height: 1500px;
+width: 300px;
+
+
+background-color: rgb(57, 250, 243);
+border-color: rgb(255, 191, 0);
+border-style: double;
+border-width: 5px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+h2{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 234, 0);
+text-align: center;
+}
+
+
+.box ul li a {
+
+text-transform: capitalize;
+
+font-weight: bold;
+
+
+
+}
+.box ul{
+    list-style:  square;
+    margin-left:20px ;
+    }
+
+
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+       width: 100%;
+       height: 100%;
+        justify-content: space-around;
+        align-items: center;
+      
+    }
+    
+      
+        
+    
+    .navbar{
+       background-color: rgb(255, 255, 255);
+       height: 40px;
+     margin-bottom: 20px;
+     line-height: 40px;
+    
+    
+}
+.navbar ul li{
+    display: inline;
+    margin: 10px;
+    border-style: groove;
+    border-color: rgb(63, 245, 8);
+   
+   }
+   .navbar ul li a{
+    text-decoration: none;
+   color: rgb(0, 0, 0);
+  
+   }
+ 
+   
+.footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.navbar ul li:hover{
+    background-color: green;
+    font-size: 20px;
+    border: 5px solid rgb(5, 124, 251);
+    
+}
+h2:hover{
+    background-color: rgb(58, 194, 58);
+    font-size: 30px;
+}
+.box li:hover{
+   background-color: rgb(0, 0, 0);
+    border-color: rgb(163, 0, 0);
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 2px ;
+    font-size: 17px;
+   
+}
+.box li a:hover{
+    color: rgb(251, 255, 0);
+    
+ 
+
+}
+.marquee .mar  a:hover{
+   background-color: rgb(0, 0, 0);
+    color: rgb(231, 248, 0);
+  
+    border: 4px solid red;
+    
+}
+h1:hover{
+    color: yellow;
+    font-size: 40px;
+ 
+   
+}
+p:hover{
+    color: yellow;
+}
+.navbar ul li a:hover{
+    color: white;
+    
+}
+@media screen and (max-width:620px) {
+.navbar ul{
+  text-align: center;
+  justify-content: center;
+}
+.box{
+
+
+  height: 1200px;
+  width: 200vw;
+}  
+header h1{
+font-size: 25px;
+
+}
+h1:hover{
+  color: yellow;
+  font-size: 30px;
+ 
+}
+.box li a{
+color: rgb(251, 255, 0);
+font-size: 15px;
+color: rgb(8, 8, 79);
+}
+
+
+
+.box li{
+text-align: center;
+justify-content: center;
+
+}
+
+.mar a {
+ font-size: 15px;
+ 
+ 
+}
+.navbar ul li{
+margin: 0 30px;
+}
+
+
+
+
+} 
+@media screen and (max-width:336px) {
+.navbar ul li{
+  margin: 0 10px;
+}
+}
+@media screen and (max-width:218px) {
+.navbar ul li{
+  margin: 0 0;
+}
+header h1{
+  font-size: 20px;
+  
+  }
+  h1:hover{
+    color: yellow;
+    font-size: 22px;
+   
+ }
+}
