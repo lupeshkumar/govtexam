@@ -94,9 +94,10 @@ font-weight: bold;
         display: flex;
         flex-wrap: wrap;
        width: 100%;
-       height: 100%;
+       height: 660px;
         justify-content: space-around;
         align-items: center;
+	    margin-bottom: 900px;
       
     }
     
