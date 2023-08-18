@@ -248,6 +248,16 @@ header h1{
  }
 }
 
+@media screen and (max-width:1240px) {
+  .content{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2522px;
+  }
+}
+
+
  #footer{
    background-color: brown;
  }
